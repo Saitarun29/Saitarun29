@@ -22,6 +22,7 @@ I build AI agents, n8n automations, and RAG systems that survive real production
 - **n8n workflow automation**: lead routing, content ops, CRM and Slack sync, built to handle errors, retries, and silent failures.
 - **Knowledge assistants (RAG)**: answers from your own docs, with citations, that say "not found" instead of guessing.
 - **LLM cost control**: model routing and retry budgets, so the bill stays predictable as usage grows.
+- **Document and WhatsApp automation**: invoice extraction with review queues, and support agents that hand off to a person.
 - **Creative AI pipelines**: storyboards and prompts for cinematic AI video (Kling, Sora, Veo).
 
 ### Live projects
@@ -37,6 +38,9 @@ Every project has a working demo you can try in the browser without signing up o
 | [**Flow Health Monitor**](https://github.com/Saitarun29/flow-health-monitor) | Catches silent, failing and slow n8n workflows before clients notice | n8n API · Slack | [Live ↗](https://flow-health-monitor.vercel.app) |
 | [**LLM Cost Router**](https://github.com/Saitarun29/llm-cost-router) | Routes each request to the right model and budgets retries, with a cost calculator | LLM routing · n8n | [Live ↗](https://llm-cost-router.vercel.app) |
 | [**AI Video Storyboard Studio**](https://github.com/Saitarun29/ai-video-storyboard-studio) | One idea becomes a shot list plus Kling, Sora and Veo prompts | Gen AI · LLM | [Live ↗](https://ai-video-storyboard-studio.vercel.app) |
+| [**Invoice & Document Extractor**](https://github.com/Saitarun29/invoice-extractor) | Turns invoices into validated JSON with per-field confidence and a review queue | n8n · Gemini · Sheets | [Live ↗](https://invoice-extractor-lemon-tau.vercel.app) |
+| [**WhatsApp Support Agent**](https://github.com/Saitarun29/whatsapp-support-agent) | Grounded FAQ answers, order lookup, bookings and human handoff for small businesses | WhatsApp Cloud API · n8n | [Live ↗](https://whatsapp-support-agent-ashen.vercel.app) |
+| [**Prompt Eval Harness**](https://github.com/Saitarun29/prompt-eval-harness) | Scores one prompt across models on accuracy, latency and cost | LLM evals · n8n | [Live ↗](https://prompt-eval-harness.vercel.app) |
 
 Each repo includes an importable **n8n workflow JSON**, an architecture diagram, and a one-click Vercel deploy.
 
