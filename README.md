@@ -30,9 +30,9 @@ Every project has a working demo you can try in the browser without signing up o
 
 | Project | What it shows | Stack | Demo |
 |---|---|---|---|
-| [**AI Lead Qualifier**](https://github.com/Saitarun29/ai-lead-qualifier) | Scores and routes inbound leads, drafts the first reply, tracks SLAs | n8n · LLM · Supabase | [Live ↗](https://ai-lead-qualifier.vercel.app) |
+| [**AI Lead Qualifier**](https://github.com/Saitarun29/ai-lead-qualifier) | Scores and routes inbound leads, drafts the first reply, tracks SLAs | n8n · LLM · Supabase | [Live ↗](https://ai-lead-qualifier-self.vercel.app) |
 | [**Content Ops Pipeline**](https://github.com/Saitarun29/content-ops-pipeline) | One idea becomes X, LinkedIn and Instagram drafts on a Notion-style board | n8n · Notion · LLM | [Live ↗](https://content-ops-pipeline.vercel.app) |
-| [**Knowledge Assistant (RAG)**](https://github.com/Saitarun29/knowledge-assistant-rag) | Internal docs Q&A with citations and a refusal guard | BM25 · pgvector · LLM | [Live ↗](https://knowledge-assistant-rag.vercel.app) |
+| [**Knowledge Assistant (RAG)**](https://github.com/Saitarun29/knowledge-assistant-rag) | Internal docs Q&A with citations and a refusal guard | BM25 · pgvector · LLM | [Live ↗](https://knowledge-assistant-rag-phi.vercel.app) |
 | [**Agent Guardrails Playground**](https://github.com/Saitarun29/agent-guardrails-playground) | An incident agent running behind 8 deterministic gates, with Slack approval | n8n · MCP · LLM | [Live ↗](https://agent-guardrails-playground.vercel.app) |
 | [**Flow Health Monitor**](https://github.com/Saitarun29/flow-health-monitor) | Catches silent, failing and slow n8n workflows before clients notice | n8n API · Slack | [Live ↗](https://flow-health-monitor.vercel.app) |
 | [**LLM Cost Router**](https://github.com/Saitarun29/llm-cost-router) | Routes each request to the right model and budgets retries, with a cost calculator | LLM routing · n8n | [Live ↗](https://llm-cost-router.vercel.app) |
